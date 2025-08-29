@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "bajaj-finserv-bfhl-challenge",
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/bfhl",
+      "dest": "/api/bfhl.js"
+    },
+    {
+      "src": "/api/bfhl",
+      "dest": "/api/bfhl.js"
+    }
+  ]
+}

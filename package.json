@@ -1,0 +1,17 @@
+{
+  "name": "bajaj-finserv-bfhl-challenge",
+  "version": "1.0.0",
+  "description": "Bajaj Finserv BFHL Challenge API",
+  "main": "api/bfhl.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "keywords": ["bajaj", "finserv", "bfhl", "api"],
+  "author": "Keerti Damani",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
